@@ -1,6 +1,7 @@
 {
 	"name": "devmax",
-	"version": "0.0.1",
+	"version": "0.0.0",
+	"author": "Max Geller",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",

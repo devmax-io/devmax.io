@@ -2,6 +2,8 @@
 
 Modern engineering and web-development learning resources.
 
+This project is built with SvelteKit and TailwindCSS.
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
