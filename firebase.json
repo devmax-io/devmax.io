@@ -7,7 +7,7 @@
     "rules": "storage.rules"
   },
   "hosting": {
-    "source": ".",
+    "public": "devmax",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -15,7 +15,14 @@
     ],
     "frameworksBackend": {
       "region": "us-west1"
-    }
+    },
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "ssrServer"
+      }
+    ],
+    "predeploy": ["npm run build"]
   },
   "functions": [
     {
