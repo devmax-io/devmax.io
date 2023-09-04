@@ -1,5 +1,5 @@
 <script>
-  let name = "DevMax.io";
+  let name = "Profile";
 </script>
 
 <h1 class="text-3xl font-bold underline">{name}</h1>
